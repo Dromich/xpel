@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 166 63"
+   style="enable-background:new 0 0 166 63;"
+   xml:space="preserve"
+   sodipodi:docname="Xpel.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata55"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>Xpel Sprite</dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs53" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1014"
+   id="namedview51"
+   showgrid="false"
+   inkscape:zoom="2.2650602"
+   inkscape:cx="83"
+   inkscape:cy="31.5"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Xpel-Sprite" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill:#FFFFFF;}
+	.st2{mask:url(#mask-2_1_);fill:#FFFFFF;}
+	.st3{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st4{mask:url(#mask-4_1_);fill:#B6B6B6;}
+	.st5{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st6{mask:url(#mask-6_1_);fill:#F5AF05;}
+</style>
+<title
+   id="title4">Xpel Sprite</title>
+<desc
+   id="desc6">Created with Sketch.</desc>
+<g
+   id="Sprite">
+	<g
+   id="Xpel-Sprite">
+		<g
+   id="Page-1-Copy-2"
+   transform="translate(0,12.361702)"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+			<g
+   id="Clip-2">
+			</g>
+			<defs
+   id="defs12">
+				<filter
+   id="Adobe_OpacityMaskFilter"
+   filterUnits="userSpaceOnUse"
+   x="0"
+   y="0"
+   width="165"
+   height="42">
+					<feColorMatrix
+   type="matrix"
+   values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+   id="feColorMatrix9" />
+				</filter>
+			</defs>
+			<mask
+   maskUnits="userSpaceOnUse"
+   x="0"
+   y="0"
+   width="165"
+   height="42"
+   id="mask-2_1_">
+				<g
+   class="st0"
+   id="g15"
+   style="filter:url(#Adobe_OpacityMaskFilter)">
+					<polygon
+   id="path-1_1_"
+   class="st1"
+   points="165,0 0,0 0,42 165,42 "
+   style="fill:#ffffff" />
+				</g>
+			</mask>
+			<path
+   id="Fill-1"
+   class="st2"
+   d="m 148.7,32.9 c 0.5,-2.1 5.7,-24.3 5.7,-24.3 H 141 L 133.3,42 h 29.6 l 2.1,-9.1 z m -13.5,-15.4 2,-8.8 h -33.9 l -2.8,12 c 0.4,-2.2 0.5,-4.5 -0.4,-6.2 C 99,12.1 96.4,9.2 90.3,8.7 89.1,8.6 87.4,8.6 78.3,8.6 H 66.5 L 75.6,0 H 58.3 L 48.5,9.8 42.9,0 H 26.2 L 38.7,19.6 17.5,42 H 33.8 L 44.7,30.1 52.1,42 h 19.8 c 0,0 2.4,-10 2.7,-11.2 H 85.9 86 c 2.7,-0.1 7.7,-0.3 11.3,-3.5 1.3,-1 2.4,-3 3.1,-5.2 l -4.6,20 h 33.9 l 2.1,-9 h -20.7 c 0.3,-1.2 0.8,-3.5 1,-4.3 h 20.7 l 1.6,-6.9 h -20.7 c 0.3,-1.2 0.8,-3.6 1,-4.4 z m -44.4,2.1 c 0,1.2 -0.8,2.3 -2.8,2.3 H 63.4 l -2,8.5 -6.5,-10.8 11.6,-11 -2.1,8.8 H 88 c 2.2,0 2.8,1 2.8,2.2 z M 26,13 c -3.1,0 -5.6,2.5 -5.6,5.6 0,3.1 2.5,5.6 5.6,5.6 3.1,0 5.6,-2.5 5.6,-5.6 C 31.7,15.6 29.2,13 26,13 Z m -8.6,5.6 c 0,-2.2 -1.8,-4.1 -4.1,-4.1 -2.3,0 -4.1,1.8 -4.1,4.1 0,2.3 1.8,4.1 4.1,4.1 2.3,0 4.1,-1.8 4.1,-4.1 z m -11.2,0 c 0,-1.7 -1.4,-3.1 -3.1,-3.1 -1.7,0 -3.1,1.4 -3.1,3.1 0,1.7 1.4,3.1 3.1,3.1 1.7,0 3.1,-1.3 3.1,-3.1 z"
+   mask="url(#mask-2_1_)"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" />
+		</g>
+		<g
+   id="Page-1"
+   transform="translate(0.000000, 44.000000)">
+			<g
+   id="Clip-2_1_">
+			</g>
+			<defs
+   id="defs24">
+				<filter
+   id="Adobe_OpacityMaskFilter_1_"
+   filterUnits="userSpaceOnUse"
+   x="0"
+   y="0"
+   width="28"
+   height="18">
+					<feColorMatrix
+   type="matrix"
+   values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+   id="feColorMatrix21" />
+				</filter>
+			</defs>
+			<mask
+   maskUnits="userSpaceOnUse"
+   x="0"
+   y="0"
+   width="28"
+   height="18"
+   id="mask-4_1_">
+				<g
+   class="st3"
+   id="g27">
+					<polygon
+   id="path-3_1_"
+   class="st1"
+   points="28,0 28,18 0,18 0,0      " />
+				</g>
+			</mask>
+			
+		</g>
+		
+	</g>
+</g>
+<g
+   id="g48">
+	<path
+   class="st1"
+   d="M160.9,1.6c1.5,0,2.8,1.2,2.8,2.8s-1.3,2.8-2.8,2.8s-2.8-1.2-2.8-2.8S159.4,1.6,160.9,1.6z M160.9,2   c-1.3,0-2.3,1-2.3,2.4s1,2.4,2.3,2.4s2.3-1,2.3-2.4S162.2,2,160.9,2z M160.4,6h-0.5V2.8h1.2c0.8,0,1.1,0.3,1.1,0.9   s-0.4,0.8-0.8,0.9l0.9,1.4h-0.5l-0.9-1.4h-0.6V6H160.4z M160.4,4.2h0.6c0.6,0,0.8-0.2,0.8-0.5s-0.2-0.5-0.7-0.5h-0.7L160.4,4.2   L160.4,4.2z"
+   id="path46" />
+</g>
+</svg>
