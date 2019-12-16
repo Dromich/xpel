@@ -1,12 +1,12 @@
 {
-	"name": "optimizedhtml",
+	"name": "xpel",
 	"version": "4.0.0",
-	"description": "OptimizedHTML 4 - Start HTML Template",
+	"description": "Xpel UA films",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "WebDesign Master",
+	"author": "Dromich",
 	"license": "ISC",
 	"devDependencies": {
 		"browser-sync": "^2.26.7",
