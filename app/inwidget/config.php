@@ -10,7 +10,7 @@ $CONFIG = array(
 	// -------------------------------------------------------------
 		
 	// Primary Instagram login
-	'LOGIN' => 'fotokto_ru',
+	'LOGIN' => 'trade_films',
 		
 	// Primary hashtags
 	// Separate hashtags by a comma. For example: girl, man
@@ -108,7 +108,7 @@ $CONFIG = array(
 		
 	// Default language [ ru / en / ua ] or something else from the lang directory.
 	// This option may no effect if you set a lang by $_GET variable
-	'langDefault' => 'ru',
+	'langDefault' => 'ua',
 		
 	// Possible language values.
 	// If you are using another language, add the lang filename in this array without extension. 

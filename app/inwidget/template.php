@@ -51,36 +51,9 @@ if(!$inWidget instanceof \inWidget\Core) {
 	</head>
 <body>
 <div id="widget" class="widget">
-	<a href="https://instagram.com/<?= $inWidget->data->username ?>" target="_blank" class="title">
-		<div class="icon">&nbsp;</div>
-		<div class="text"><?= $inWidget->lang['title']; ?></div>
-		<div class="clear">&nbsp;</div>
-	</a>
+	
 	<?php if($inWidget->toolbar == true): ?>
-		<table class="profile">
-			<tr>
-				<td rowspan="2" class="avatar">
-					<a href="https://instagram.com/<?= $inWidget->data->username ?>" target="_blank"><img src="<?= $inWidget->data->avatar ?>"></a>
-				</td>
-				<td class="value">
-					<?= $inWidget->data->posts; ?>
-					<span><?=$inWidget->lang['statPosts'] ?></span>
-				</td>
-				<td class="value">
-					<?= $inWidget->data->followers ?>
- 					<span><?= $inWidget->lang['statFollowers'] ?></span>
-				</td>
-				<td class="value" style="border-right:none !important;">
-					<?= $inWidget->data->following ?>
- 					<span><?= $inWidget->lang['statFollowing'] ?></span>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="3" style="border-right:none !important;">
-					<a href="https://instagram.com/<?= $inWidget->data->username ?>" class="follow" target="_blank"><?= $inWidget->lang['buttonFollow'] ?> &#9658;</a>
-				</td>
-			</tr>
-		</table>
+	
 		<?php endif;
 		$i = 0;
 		$count = $inWidget->countAvailableImages($inWidget->data->images);
@@ -119,9 +92,7 @@ if(!$inWidget instanceof \inWidget\Core) {
 		}
 	?>
 </div>
-<div class='copyright'>
-	&copy; <a href='https://inwidget.ru' target='_blank' title='Free Instagram widget for your website!'>inwidget.ru</a>
-</div>
+
 <?php if(isset($inWidget->data->isBackup)): ?>
 	<div class='cacheError'>
 		<?= $inWidget->lang['errorCache'].' '.date('Y-m-d H:i:s',$inWidget->data->lastupdate) .' <br /> '. $inWidget->lang['updateNeeded'] ?>
@@ -129,8 +100,3 @@ if(!$inWidget instanceof \inWidget\Core) {
 <?php endif;?>
 </body>
 </html>
-<!-- 
-	inWidget - free Instagram widget for your site!
-	https://inwidget.ru
-	© Alexandr Kazarmshchikov
--->

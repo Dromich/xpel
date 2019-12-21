@@ -2,19 +2,20 @@
 	function setImageSize($inLine){
 		echo '
 			.widget .data a.image:link, .widget .data a.image:visited {
-				width: -webkit-calc((100% - (5px + (9px * '.$inLine.'))) / '.$inLine.');
-				width: -moz-calc((100% - (5px + (9px * '.$inLine.'))) / '.$inLine.');
-				width: -ms-calc((100% - (5px + (9px * '.$inLine.'))) / '.$inLine.');
-				width: calc((100% - (5px + (9px * '.$inLine.'))) / '.$inLine.');
+				width: -webkit-calc((100% - (5px + (11px * '.$inLine.'))) / '.$inLine.');
+				width: -moz-calc((100% - (5px + (11px * '.$inLine.'))) / '.$inLine.');
+				width: -ms-calc((100% - (5px + (11px * '.$inLine.'))) / '.$inLine.');
+				width: calc((100% - (5px + (11px * '.$inLine.'))) / '.$inLine.');
 			}
 		';
 	}
 	if(!isset($_GET['inline']) AND !isset($_GET['view'])) {
-		$inWidget->inline = 6;
-		$inWidget->view = 12;
+		$inWidget->inline = 5;
+		$inWidget->view = 10;
 	}
 ?>
 <script type="text/javascript" src="<?= $inWidget->skinPath ?>js/jquery-3.2.1.min.js"></script>
+
 <style type='text/css'>
 	<?= setImageSize($inWidget->inline) ?>
 	.widget .data .image span {
@@ -30,21 +31,21 @@
 		}
 	}
 	<?php if($inWidget->inline > 4): ?>
-		@media (max-width: 400px) {
+		@media (max-width: 768px) {
 			<?= setImageSize(4) ?>
 		}	
 	<?php endif;?>
-	@media (max-width: 230px) {
-		<?= setImageSize(3) ?>
-	}
-	@media (max-width: 180px) {
+	@media (max-width: 576px) {
 		<?= setImageSize(2) ?>
 	}
-	@media (max-width: 90px) {
+	
+	@media (max-width: 320px) {
 		<?= setImageSize(1) ?>
 	}
 </style>
 <script type="text/javascript">
+
+
 	function setImagesDimensions(){
 		var images = $('.widget .data .image');
 		images.each(function(val){
