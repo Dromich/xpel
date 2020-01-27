@@ -281,5 +281,29 @@ section {
 		padding-top: 13px;
 	}
 }
+footer{
+	background-color: $dark;
+	min-height: 20vh;
+	margin-top: 20px;
+	padding-top: 50px;
+	color:$wh;
+	a{
+		color:$wh;
+		&:hover{
+			text-decoration: none;
+			color:$accent
+		}
+	}
+	 
+	ul {
+		list-style:none;
+
+	}
+	.contact span{
+		display: block;
+
+	}
+	
+}
 
 @import "media"; // Always at the end
